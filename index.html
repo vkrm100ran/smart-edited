@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-road-view">
+        <li class="text"><img src="preview/1.jpg" alt="Road View"><div class="scene-name">Road View</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-parking-zone">
+        <li class="text"><img src="preview/2.jpg" alt="Parking Zone"><div class="scene-name">Parking Zone</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-entrance">
+        <li class="text"><img src="preview/3.jpg" alt="Entrance"><div class="scene-name">Entrance</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-front-view">
+        <li class="text"><img src="preview/4.jpg" alt="Front View"><div class="scene-name">Front View</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-overview">
+        <li class="text"><img src="preview/5.jpg" alt="Overview"><div class="scene-name">Overview</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-ground-path">
+        <li class="text"><img src="preview/6.jpg" alt="Ground Path"><div class="scene-name">Ground Path</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-basket-ball-court">
+        <li class="text"><img src="preview/7.jpg" alt="Basket Ball Court"><div class="scene-name">Basket Ball Court</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-cricket-ground">
+        <li class="text"><img src="preview/8.jpg" alt="Cricket Ground"><div class="scene-name">Cricket Ground</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-reception">
+        <li class="text"><img src="preview/9.jpg" alt="Reception"><div class="scene-name">Reception</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-corridor">
+        <li class="text"><img src="preview/10.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-outside">
+        <li class="text"><img src="preview/11.jpg" alt="Outside"><div class="scene-name">Outside</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-principal-office">
+        <li class="text"><img src="preview/12.jpg" alt="Principal Office"><div class="scene-name">Principal Office</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-ground-floor">
+        <li class="text"><img src="preview/13.jpg" alt="Ground Floor"><div class="scene-name">Ground Floor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-class-room">
+        <li class="text"><img src="preview/14.jpg" alt="Classroom"><div class="scene-name">Classroom</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-corridor-2">
+        <li class="text"><img src="preview/15.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-play-class">
+        <li class="text"><img src="preview/16.jpg" alt="Play Class"><div class="scene-name">Play Class</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-corridor-4">
+        <li class="text"><img src="preview/17.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-between-blocks">
+        <li class="text"><img src="preview/18.jpg" alt="Between Blocks"><div class="scene-name">Between Blocks</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-mess">
+        <li class="text"><img src="preview/19.jpg" alt="Mess"><div class="scene-name">Mess</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-swimming--badminton">
+        <li class="text"><img src="preview/20.jpg" alt="Badminton"><div class="scene-name">Badminton</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-swimming-pool">
+        <li class="text"><img src="preview/21.jpg" alt="Swimming Pool"><div class="scene-name">Swimming Pool</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-badminton-court">
+        <li class="text"><img src="preview/22.jpg" alt="Badminton Court"><div class="scene-name">Badminton Court</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-corridor-5">
+        <li class="text"><img src="preview/23.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-basketball-court">
+        <li class="text"><img src="preview/24.jpg" alt="Basket Ball"><div class="scene-name">Basket Ball</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-corridor-6">
+        <li class="text"><img src="preview/25.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-shooting-class">
+        <li class="text"><img src="preview/26.jpg" alt="Shooting Class"><div class="scene-name">Shooting Class</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-music-class">
+        <li class="text"><img src="preview/27.jpg" alt="Music Class"><div class="scene-name">Music Class</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-first-floor">
+        <li class="text"><img src="preview/28.jpg" alt="First Floor"><div class="scene-name">First Floor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-corridor--7">
+        <li class="text"><img src="preview/29.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-bio-lab">
+        <li class="text"><img src="preview/30.jpg" alt="Bio Lab"><div class="scene-name">Bio Lab</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-computer-lab">
+        <li class="text"><img src="preview/31.jpg" alt="Computer Lab"><div class="scene-name">Computer Lab</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-corridor-8">
+        <li class="text"><img src="preview/32.jpg" alt="Corridor"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-artscraft-class">
+        <li class="text"><img src="preview/33.jpg" alt="Arts & Craft Class"><div class="scene-name">Arts & Craft Class</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-second-floor">
+        <li class="text"><img src="preview/34.jpg" alt="Second Floor"><div class="scene-name">Second Floor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-corridor-9">
+        <li class="text"><img src="preview/35.jpg" alt="Road View"><div class="scene-name">Corridor</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-dance-class">
+        <li class="text"><img src="preview/36.jpg" alt="Dance Class"><div class="scene-name">Dance Class</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-chemistry-lab">
+        <li class="text"><img src="preview/37.jpg" alt="Chemistry Lab"><div class="scene-name">Chemistry Lab</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-library">
+        <li class="text"><img src="preview/38.jpg" alt="Library"><div class="scene-name">Library</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-music-class">
+        <li class="text"><img src="preview/39.jpg" alt="Music Class"><div class="scene-name">Music Class</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-physics-lab">
+        <li class="text"><img src="preview/40.jpg" alt="Physics Lab"><div class="scene-name">Physics Lab</div></li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-front-garden">
+        <li class="text"><img src="preview/41.jpg" alt="Front Garden"><div class="scene-name">Front Garden</div></li>
+      </a>
+    
+  </ul>
+</div>
+
+<div class="lvcontainer">
+  <div id="titleBar">
+    <h1 class="sceneName"></h1>
+  </div>
+  
+  <div class="buttonsContainer">
+
+    <div class="container-a container">
+      <a href="javascript:void(0)" id="sceneListToggle" class="viewControlButton">
+        <img class="icon off" src="img/expand.png">
+        <img class="icon on" src="img/collapse.png">
+      </a>
+    </div>
+    <div class="container-b container">
+  
+      <a href="javascript:void(0)" id="viewUp" class="viewControlButton">
+        <img class="icon" src="img/up.png">
+      </a>
+      <a href="javascript:void(0)" id="viewDown" class="viewControlButton">
+        <img class="icon" src="img/down.png">
+      </a>
+      <a href="javascript:void(0)" id="viewLeft" class="viewControlButton">
+        <img class="icon" src="img/left.png">
+      </a>
+      <a href="javascript:void(0)" id="viewRight" class="viewControlButton">
+        <img class="icon" src="img/right.png">
+      </a>
+        <a href="javascript:void(0)" id="viewIn" class="viewControlButton">
+          <img class="icon" src="img/plus.png">
+        </a>
+        <a href="javascript:void(0)" id="viewOut" class="viewControlButton">
+          <img class="icon" src="img/minus.png">
+        </a>
+    </div>
+    
+    <div class="container-c container">
+      
+
+<a href="javascript:void(0)" id="autorotateToggle" class="viewControlButton">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+<!-- <button id="btn-p">P</button> -->
+
+
+<a href="javascript:void(0)" id="fullscreenToggle" class="viewControlButton">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+</div>
+  </div>
+    </div>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
